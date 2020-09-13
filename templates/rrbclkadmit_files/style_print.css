@@ -1,0 +1,154 @@
+/* css for call letter - STARTS*/
+.box{border: 1px solid #000;}
+.container{font-size: 12px !important; line-height: 1.4 !important;}
+.padding-5px{padding: 5px;}
+.padding-10px{padding: 10px;}
+.margin-2px{margin-top: 2px !important;}
+.margin-5px{margin-top: 5px !important;}
+.margin-10px{margin-top: 10px !important;}
+
+.rightmargin{margin-right: 100px !important;}
+.border_bottom_dash{
+	border-bottom: 1px dashed grey;	
+}
+.font_cc{
+	font-size: 13px !important;
+	margin-left: 90px;
+}
+.horizontal_line{
+	border-top: 1px solid #020202;
+}
+.container a{ text-decoration: underline; }
+	
+.top-buffer{margin-top:2px !important; }
+.bottom-buffer{ margin-bottom:5px !important; }
+
+.top-padding5{	padding-top: 5px; }
+.text_bold{	font-weight: bold; }
+
+.user-details p{	margin: 2px !important;	}
+address {	margin-bottom: 0;	}
+address, .user-details p{	font-weight: bold; }
+address, .user-details p{	line-height: 1.35 !important; }
+.post-title{	vertical-align: middle;	}
+.post-title{	font-size: 90% !important;}
+.post-title-topmargin{	margin-top: 5px;}
+.post-title { font-size: 16px;}
+.text_sup { font-size: 10px;}
+.post-details p, .greeting-venue p, .important-note, .documents-holder p, .cand-sign p, .thumb-impres p{margin: 0;}
+
+.documents-holder p{	line-height: 1.55 !important;	}
+
+.photo-holder{
+	width: 125px;
+	height: 130px;
+}
+.left_thumb, .cand_sign, .invig_sign{
+	margin-left: 0px !important;
+	margin-right: 0px ! important;
+}
+.box-container{	margin: 3px 3px 0px 3px !important;	}
+.threebox-column{	margin: 3px 10px !important;	}
+.box-container p, .signature-text p{ font-size: 85% !important; line-height: 1.1 !important;}
+.box-container img, .signature-text img{height: auto !important;}
+
+.joinedbox{margin-right: -2px; padding: 0px !important;}
+.seperatedbox{margin-right: -2px; padding: 2px !important;}
+
+.lthumb-sign-box{height: 65px; margin: 0px !important;}
+.lthumb-text-box{height: 55px; margin: 0px!important; padding: 2px;}
+
+.rthumb-sign-box{height: 65px; margin: 0px !important;}
+.rthumb-text-box{height: 55px; margin: 0px!important; padding: 2px;}
+
+.thumb-sign-box{height: 65px; margin: 0px !important;}
+.thumb-text-box{height: 55px; margin: 0px !important; padding: 2px;}
+
+.center-sign-box{height: 55px; margin: 0px 0px 0px 2px !important;}
+.center-text-box{height: 65px; margin: 0px 0px 0px 2px !important; padding: 2px;}
+
+.right-sign-box{height: 50px; margin: 0px 0px 0px 2px !important;}
+.right-text-box{height: 70px; margin: 0px 0px 0px 2px !important; padding: 2px;}
+
+.documents-holder p, .important-note{	text-align: justify !important; }
+.important-note, .documents-holder p{font-size: 12px;}
+.important-note{line-height: 1.12857 !important;}
+
+
+.documents-holder{
+	padding: 0em 1em !important;
+}
+.documents-holder ul{	margin-bottom: 0px !important;	}
+.candidate_pic{	float: top; height: auto; max-width: 90%;	}
+.serial-no{padding-right: 8px;}
+
+.text-indent-one{padding-left: 1.5em;}
+.text-indent-two{padding-left: 2.5em; }
+.text-indent-three{padding-left: 4.5em;}
+
+.text-padding-one{padding-left: 1.2em;}
+.text-padding-two{padding-left: 2em;}
+.text-padding-three{padding-left: 2.2em; }
+
+.tb_rw1 {
+    font-weight: normal !important;
+    vertical-align: top !important;
+}
+.in_cont_app_det_tb td {
+    padding: 5px !important;
+    border: none !important;
+}
+.center_table{
+	margin: 0px auto;
+}
+
+/* Header and Footer on each page */
+ @media screen {
+        div.PageHeader {
+            display: none;
+        }		
+		div.PageFooter {
+            display: none;
+        }
+		div.printoff {
+            display: none;
+        }     
+    }
+
+/* css for call letter - ENDS*/
+
+/* css for result	*/
+.space-5px{margin-bottom: 10px !important;}
+.margin-10px{margin: 10px !important;}
+.table > tbody > tr > td, .table-bordered > tbody > tr > td, .table > tr > td, .table-bordered > tr > td {
+	border: 1px solid #666;
+	color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857;
+	padding: 5px;
+	}
+	
+svg:not(:root) {
+    float: right;
+}
+
+.inner_header_content{
+	background: -moz-linear-gradient(center top , #1D79C5, #2799F7) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 90px;
+    margin-top: 10px;
+    padding-top: 19px;
+	
+	background:#2799F7;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1D79C5), to(#2799F7));
+    /* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #1D79C5, #2799F7);
+    /* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #1D79C5, #2799F7);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #1D79C5, #2799F7);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #1D79C5, #2799F7);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D79C5', endColorstr='#2799F7',GradientType=0 ); /* IE6-9 */
+
+}

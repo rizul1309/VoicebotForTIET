@@ -1,0 +1,147 @@
+/***********/
+/***********/
+/***********/
+
+@media all and (max-width: 70em) {
+  /* comes into effect for all screens */
+html, body
+{
+	width:100%;
+	height:100%;
+	padding:0;
+    margin:0;
+}
+
+.foot
+  {
+	  position:relative;
+	  margin-bottom:0 !important;
+  }
+svg /*SVN tag for the barcode*/
+{
+	width:20%;
+	height: 10%;
+}
+span
+{
+	font-size:6px;
+}
+#mobimg1
+{
+	margin-left:200px;
+}
+
+#one
+{
+	font-size:6px;
+	width:50%;
+	float:left;
+}
+#two
+{
+	font-size:6px;
+	width:50%;
+	float:right;
+}
+
+.row
+{
+	font-size:6px;
+}
+.margin-5px
+{
+	margin-top:-5px;
+}
+
+.photo-holder
+{
+	height:65px;
+	width: 70px;
+	float:left;
+}
+.photo-holder p{
+	line-height:5px;
+	font-size:6px;
+}
+.important-note
+{
+	font-size:6px;
+}
+.documents-holder p
+{
+	font-size:6px;
+}
+.documents-holder{padding: 0em 3em 0em 3em !important;}
+.candidate_pic{
+	height:auto;
+	width: 40px;
+	margin-left:10px;
+}
+.box
+{
+	font-size:6px;
+	bottom:0;
+}
+.mobmg
+{
+	width:30px;
+	height:auto;
+}
+.container .seperatedbox
+{
+	overflow:hidden;
+	display:inline;
+	margin:0;
+}
+.col-sm-offset-8
+{
+	text-align:right;
+
+}
+
+
+.lthumb-sign-box{height: 35px; margin: 0px !important;}
+.lthumb-text-box{height: 25px; margin: 0px!important; padding: 2px;}
+
+.rthumb-sign-box{height: 35px; margin: 0px !important;}
+.rthumb-text-box{height: 25px; margin: 0px!important; padding: 2px;}
+
+.thumb-sign-box{height: 35px; margin: 0px !important;}
+.thumb-text-box{height: 25px; margin: 0px !important; padding: 2px;}
+#printer
+{
+	float:right;
+	font-size:6px;
+}
+#webleft
+{
+	text-align:left;
+	margin-left:25px;
+}
+#webright
+{
+	margin-top:-7px;
+	float:right;
+	margin-right:25px;
+}
+#left-col
+{
+	float:left;
+	width:33.333333%;
+}
+#center-col{
+	float:left;
+	width:33.333333%;
+}
+#right-col{
+	float:left;
+	width:33.333333%;
+}
+.pull-left{padding-right:0px;}
+.text-padding-two{padding-left: 3em;}
+.text-indent-two{padding-left: 3em; }
+}
+
+/***********/
+/***********/
+/***********/

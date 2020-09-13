@@ -1,0 +1,236 @@
+@media print {
+	@-webkit-viewport   { width: device-width !important; }
+	@-moz-viewport      { width: device-width !important; }
+	@-ms-viewport       { width: device-width !important; }
+	@-o-viewport        { width: device-width !important; }
+	@viewport           { width: device-width !important; }
+	body {
+		margin-left:auto; 
+		margin-right:auto; 
+		background-color: #fff;
+		color: #333;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+		font-size: 12px !important;
+		line-height: 1.1 !important;
+	}
+	.container{
+		width: 95% !important;
+		margin: 15px !important;
+		padding: 0px 15px !important;
+		border: 1px solid #000 !important;
+	}
+	.documents-holder{
+		width: 97% !important;		
+	}
+	.documents-holder p{
+		font-size : 88% !important;
+		line-height: 1.0 !important;
+	}	
+	.important-note{
+		line-height: 1.0 !important;
+		font-size : 75% !important;
+	}
+.important-note-eng{
+		
+		font-size : 75% !important;
+	}
+	.med_print{
+		font-size : 9px !important;
+	}
+	.mobmg-md{
+		margin-left:10px !important;
+	}
+	.media-print{
+		margin-top : 5px !important;
+	}.media-print-eng{
+		margin-top : 3px !important;
+	}
+	.med_print_hin p{
+		font-size : 12px !important;
+		line-height : 1.0 !important;
+	}
+	.med_print_eng p{
+		
+		line-height : 1.0 !important;
+	}
+	a[href]:after {
+		content: none !important;
+	}	
+	/* Don't show links for images, or javascript/internal links*/  
+	a[href^="javascript:"]:after, a[href^="#"]:after {
+		content: "";
+	}
+
+	/* Css only for firefox browser */
+	@-moz-document url-prefix() {
+	  	.important-note{
+			line-height: 1.0 !important;
+			font-size : 66% !important;
+		}
+		.important-note-eng{
+			
+			font-size : 66% !important;
+		}
+		.media-prnt-tb{
+		height:55px !important;
+	}
+	}	
+}
+
+
+/* Header and Footer on each page */
+ @media print {
+		div.PageHeader {            
+			/*position: fixed;*/
+            top: 0 !important;	
+        }
+		.header-row{margin-bottom: 15px !important;}
+		div.PageFooter {
+           margin-top: 20px !important;
+		   padding: 10px 0px !important;
+		   bottom: 0 !important;
+		   border-top: 1px solid black; 
+        }
+		.PageFooter p{
+			margin: 0px !important;
+		}
+		a.disability{
+			display: none;
+		}
+    }
+
+@media print {
+	.candidate_pic{
+		max-width: 165% !important;
+		height: auto !important;
+		margin-left: 45px;
+	}
+	.photo-holder p, .thumb-impres p, .cand-sign p, .greeting-venue p, .important-note p, .note{
+	  font-size: 10px !important;
+	}
+	.box-container p, .signature-text p{ font-size: 82% !important; line-height: 1.1 !important;}
+	.container, .top-buffer{
+		margin-top: 0px !important;
+	}
+	.clkPrint{
+		 display: none !important;
+	}
+	.lthumb-text-box, .thumb-text-box{
+		font-size: 80% !important;
+	}
+	small{
+		font-size: 80% !important;
+	}
+	.header-row{
+		padding-top: 10px;
+	}
+	.photo-holder{
+		/*height: 120px;*/
+		height: 132px !important;
+		width: 132px !important;
+	}
+	.margin-5px{margin-top: 5px !important;}
+	.page{
+		page-break-after: always;
+		page-break-inside: avoid;
+	}
+	.page-break  {     
+		page-break-before: always;
+		page-break-inside: avoid;
+	}
+	img {
+		page-break-inside: avoid;
+		max-width: 100% !important;
+	}
+	.text-fill{
+		line-height:30px !important;
+	}
+}
+@media print{
+  .text-indent-one{padding-left: 1em;}
+  .text-indent-two{padding-left: 1.6em; }
+  .text-indent-three{padding-left: 3em;}
+
+  .text-padding-one{padding-left:1em;}
+  .text-padding-two{padding-left:2em;}
+  .text-padding-three{padding-left:1.6em; }  
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+}
